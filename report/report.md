@@ -135,4 +135,4 @@ This project demonstrates how bit-level data representation can significantly re
 ---
 
 **Author:** Joe Kabban  
-Université Côte d’Azur — L3 Artificial Intelligence
+Université Côte d’Azur — M1 Artificial Intelligence
