@@ -2,7 +2,6 @@ from typing import List
 from .base import BitPacking, bits_needed
 
 class BitPackingOverlap(BitPacking):
-    # allows spanning across 32-bit words
     def compress(self, arr: List[int]) -> None:
         self.n = len(arr)
         self.k = max(1, max(bits_needed(x) for x in arr) if arr else 1)
